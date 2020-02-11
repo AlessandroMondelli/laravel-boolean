@@ -13,7 +13,11 @@
 
 Route::get('/', function () {
     return view('home');
-});
+})->name('homepage');
+
+Route::get('/faqs', function () {
+    return view('faqs');
+})->name('faqs-page');
 
 
 ?>

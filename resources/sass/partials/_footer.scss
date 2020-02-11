@@ -8,26 +8,44 @@ footer {
 
         .upper-footer {
             border-bottom: 1px solid white;
-        }
 
-        #footer-logo {
-            img {
-                width: 30%;
-                margin-bottom: 5px;
+            #footer-logo {
+                img {
+                    width: 30%;
+                    margin-bottom: 5px;
+                }
+            }
+
+            p {
+                margin-bottom: 4px;
+            }
+
+            ul {
+                list-style-type: none;
+
+                li {
+                    font-size: 20px;
+                }
             }
         }
 
-        p {
-            margin-bottom: 4px;
-        }
+        .down-footer {
+            margin-top: 25px;
 
-        ul {
-            list-style-type: none;
+            .col-lg-12 {
+                margin: 0 auto;
+                text-align: center;
 
-            li {
-                font-size: 20px;
+                i {
+                    font-size: 36px;
+                    margin-bottom: 15px;
+                    margin-right: 35px;
+
+                    &:hover {
+                        color: $common-color-green;
+                    }
+                }
             }
         }
     }
-
 }

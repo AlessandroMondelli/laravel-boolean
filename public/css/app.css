@@ -11015,20 +11015,39 @@ footer #bool-footer .upper-footer {
   border-bottom: 1px solid white;
 }
 
-footer #bool-footer #footer-logo img {
+footer #bool-footer .upper-footer #footer-logo img {
   width: 30%;
   margin-bottom: 5px;
 }
 
-footer #bool-footer p {
+footer #bool-footer .upper-footer p {
   margin-bottom: 4px;
 }
 
-footer #bool-footer ul {
+footer #bool-footer .upper-footer ul {
   list-style-type: none;
 }
 
-footer #bool-footer ul li {
+footer #bool-footer .upper-footer ul li {
   font-size: 20px;
+}
+
+footer #bool-footer .down-footer {
+  margin-top: 25px;
+}
+
+footer #bool-footer .down-footer .col-lg-12 {
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer #bool-footer .down-footer .col-lg-12 i {
+  font-size: 36px;
+  margin-bottom: 15px;
+  margin-right: 35px;
+}
+
+footer #bool-footer .down-footer .col-lg-12 i:hover {
+  color: #61ce4e;
 }
 
