@@ -1,0 +1,33 @@
+footer {
+    margin-top: 50px;
+
+    #bool-footer {
+        padding: 70px 0;
+        background-color: $common-color-blue;
+        color: #FFFFFF;
+
+        .upper-footer {
+            border-bottom: 1px solid white;
+        }
+
+        #footer-logo {
+            img {
+                width: 30%;
+                margin-bottom: 5px;
+            }
+        }
+
+        p {
+            margin-bottom: 4px;
+        }
+
+        ul {
+            list-style-type: none;
+
+            li {
+                font-size: 20px;
+            }
+        }
+    }
+
+}

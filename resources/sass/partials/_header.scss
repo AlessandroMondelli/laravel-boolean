@@ -1,40 +1,48 @@
-#menu {
-    height: $header-height;
-    padding: 10px 0;
-    font-size: 14px;
-    color: $common-color-blue;
+header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 3;
 
-    #logo {
-        height: $max-height-width;
+    #menu {
+        height: $header-height;
+        padding: 10px 0;
+        font-size: 14px;
+        color: $common-color-blue;
 
-        img {
+        #logo {
             height: $max-height-width;
-        }
-    }
 
-    ul {
-        margin-right: $header-menu-margin;
-        li {
-            margin-right: $header-menu-margin;
-            padding: 0 10px;
-
-            &.active {
-                border-bottom: $header-menu-border-bottom;
+            img {
+                height: $max-height-width;
             }
+        }
+
+        ul {
+            margin-right: $header-menu-margin;
+            li {
+                margin-right: $header-menu-margin;
+                padding: 0 10px;
+
+                &.active {
+                    border-bottom: $header-menu-border-bottom;
+                }
+
+                &:hover {
+                    border-bottom: $header-menu-border-bottom;
+                }
+            }
+        }
+
+        button {
+            background-color: $common-color-green;
+            color: white;
+            border: none;
 
             &:hover {
-                border-bottom: $header-menu-border-bottom;
+                background-color: #73d462;
             }
-        }
-    }
-
-    button {
-        background-color: $common-color-green;
-        color: white;
-        border: none;
-
-        &:hover {
-            background-color: #73d462;
         }
     }
 }
