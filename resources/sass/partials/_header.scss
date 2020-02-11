@@ -1,17 +1,35 @@
 #menu {
-    height: 80px;
+    height: $header-height;
     padding: 10px 0;
+    font-size: 14px;
+    color: $common-color-blue;
 
     #logo {
-        height: 100%;
+        height: $max-height-width;
 
         img {
-            height: 100%;
+            height: $max-height-width;
+        }
+    }
+
+    ul {
+        margin-right: $header-menu-margin;
+        li {
+            margin-right: $header-menu-margin;
+            padding: 0 10px;
+
+            &.active {
+                border-bottom: $header-menu-border-bottom;
+            }
+
+            &:hover {
+                border-bottom: $header-menu-border-bottom;
+            }
         }
     }
 
     button {
-        background-color: rgb(97, 206, 78);
+        background-color: $common-color-green;
         color: white;
         border: none;
 

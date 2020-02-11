@@ -1,0 +1,33 @@
+#jumbo {
+    margin: 65px 0 30px 0;
+    color: $common-color-blue;
+
+    .jumbotron {
+        background-color: inherit;
+
+        h1 {
+            font-size: $jumbo-h1-size;
+        }
+
+        p {
+            margin: 15px 0;
+            font-size: 19px;
+        }
+
+        ul {
+            list-style-position: inside;
+            padding: 0;
+            font-size: 18px;
+
+            li {
+                font-weight: $font-weight-li;
+            }
+        }
+    }
+
+    #bool-img {
+        img {
+            width: $max-height-width;
+        }
+    }
+}
