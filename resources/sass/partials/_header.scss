@@ -1,0 +1,22 @@
+#menu {
+    height: 80px;
+    padding: 10px 0;
+
+    #logo {
+        height: 100%;
+
+        img {
+            height: 100%;
+        }
+    }
+
+    button {
+        background-color: rgb(97, 206, 78);
+        color: white;
+        border: none;
+
+        &:hover {
+            background-color: #73d462;
+        }
+    }
+}
