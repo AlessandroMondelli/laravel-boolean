@@ -11001,6 +11001,23 @@ header #menu button:hover {
   margin: 0 auto;
 }
 
+#placement {
+  color: #8e8e8e;
+  padding: 40px 0;
+}
+
+#placement .row {
+  margin-bottom: 15px;
+}
+
+#placement h3 {
+  font-size: 19px;
+}
+
+#placement img {
+  max-width: 250px;
+}
+
 .j-faq {
   padding: 100px 0 20px 0;
 }

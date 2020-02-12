@@ -48,5 +48,38 @@
             </div>
         </div>
     </section>
+    <section>
+        <div id="placement">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h3>I nostri studenti sono stati assunti da:</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="https://www.boolean.careers/images/companies/facileit.png" alt="facile.it">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="https://www.boolean.careers/images/companies/oneday.png" alt="oneday">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="https://www.boolean.careers/images/companies/prima.png" alt="prima">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 text-right">
+                        <img src="https://www.boolean.careers/images/companies/fabbrica-digitale-big.png" alt="Fabbrica digitale">
+                    </div>
+                    <div class="col-lg-4 text-right">
+                        <img src="https://www.boolean.careers/images/companies/nephila.png" alt="nephila">
+                    </div>
+                    <div class="col-lg-4 text-right">
+                        <img src="https://www.boolean.careers/images/companies/rds.png" alt="rds">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 @endsection

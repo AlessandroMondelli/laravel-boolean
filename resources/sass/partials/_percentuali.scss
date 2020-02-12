@@ -4,7 +4,7 @@
     text-align: center;
 
     .row {
-        padding: 40px 0;
+        padding: $common-padding;
 
         h2 {
             font-size: 50px;
@@ -12,7 +12,7 @@
 
         p {
             font-size: 19px;
-            font-weight: 300;
+            font-weight: $font-weight-li;
             max-width: 75%;
             margin: 0 auto;
         }
