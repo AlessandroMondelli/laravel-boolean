@@ -1,0 +1,19 @@
+.bool-faqs {
+    padding: 50px 15px;
+
+    h2 {
+        padding: 0 80px;
+        margin: 0 0 30px;
+    }
+
+    &.before {
+        color: $common-color-blue;
+        background-color: rgb(232, 235, 241);
+
+    }
+
+    &.after {
+        color: white;
+        background-color: $common-color-blue;
+    }
+}

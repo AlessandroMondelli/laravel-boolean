@@ -3,7 +3,7 @@
 @section('content')
 <main>
     <section>
-        <div id="jumbo">
+        <div class="jumbo">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">

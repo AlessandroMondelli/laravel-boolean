@@ -10948,35 +10948,35 @@ header #menu button:hover {
   background-color: #73d462;
 }
 
-#jumbo {
+.jumbo {
   padding: 150px 0 30px 0;
   color: #1b3c59;
 }
 
-#jumbo .jumbotron {
+.jumbo .jumbotron {
   background-color: inherit;
 }
 
-#jumbo .jumbotron h1 {
+.jumbo .jumbotron h1 {
   font-size: 50px;
 }
 
-#jumbo .jumbotron p {
+.jumbo .jumbotron p {
   margin: 15px 0;
   font-size: 19px;
 }
 
-#jumbo .jumbotron ul {
+.jumbo .jumbotron ul {
   list-style-position: inside;
   padding: 0;
   font-size: 18px;
 }
 
-#jumbo .jumbotron ul li {
+.jumbo .jumbotron ul li {
   font-weight: 300;
 }
 
-#jumbo #bool-img img {
+.jumbo #bool-img img {
   width: 100%;
 }
 
@@ -11001,8 +11001,31 @@ header #menu button:hover {
   margin: 0 auto;
 }
 
-footer {
-  margin-top: 50px;
+.j-faq {
+  padding: 100px 0 20px 0;
+}
+
+.j-faq .jumbotron {
+  padding: 50px 30px;
+}
+
+.bool-faqs {
+  padding: 50px 15px;
+}
+
+.bool-faqs h2 {
+  padding: 0 80px;
+  margin: 0 0 30px;
+}
+
+.bool-faqs.before {
+  color: #1b3c59;
+  background-color: #e8ebf1;
+}
+
+.bool-faqs.after {
+  color: white;
+  background-color: #1b3c59;
 }
 
 footer #bool-footer {
