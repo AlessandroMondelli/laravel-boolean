@@ -11013,9 +11013,32 @@ header #menu button:hover {
   padding: 50px 15px;
 }
 
-.bool-faqs h2 {
+.bool-faqs h2,
+.bool-faqs h3,
+.bool-faqs p {
   padding: 0 80px;
   margin: 0 0 30px;
+}
+
+.bool-faqs i {
+  display: none;
+}
+
+.bool-faqs i.active {
+  display: block;
+}
+
+.bool-faqs i:hover {
+  cursor: pointer;
+}
+
+.bool-faqs h3 {
+  font-size: 24px;
+  margin: 50px 0;
+}
+
+.bool-faqs p {
+  font-size: 18px;
 }
 
 .bool-faqs.before {

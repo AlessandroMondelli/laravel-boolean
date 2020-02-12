@@ -16,7 +16,11 @@ Route::get('/', function () {
 })->name('homepage');
 
 Route::get('/faqs', function () {
-    return view('faqs');
+    $data = [
+        'faq_list_bef' => config('data.faqs_before'),
+        'faq_list_aft' => config('data.faqs_after')
+    ];
+    return view('faqs', $data);
 })->name('faqs-page');
 
 
