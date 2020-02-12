@@ -11039,6 +11039,7 @@ header #menu button:hover {
 
 .bool-faqs p {
   font-size: 18px;
+  display: none;
 }
 
 .bool-faqs.before {

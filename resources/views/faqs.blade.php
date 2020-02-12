@@ -22,17 +22,21 @@
                 <div class="col-lg-6 bool-faqs before">
                     <h2>Prima del corso</h2>
                     @foreach ($faq_list_bef as $faqs)
-                        <h3>{{ $faqs['domanda'] }}<i class="fas fa-plus float-right active"></i><i class="fas fa-minus float-right"></i>
-                        </h3>
-                        <p>{{ $faqs['risposta'] }}</p>
+                        <div class="faq before">
+                            <h3>{{ $faqs['domanda'] }}<i class="fas fa-plus float-right active"></i><i class="fas fa-minus float-right"></i>
+                            </h3>
+                            <p>{{ $faqs['risposta'] }}</p>
+                        </div>
                     @endforeach
                 </div>
                 <div class="col-lg-6 bool-faqs after">
                     <h2>Dopo il corso</h2>
                     @foreach ($faq_list_aft as $faqs)
-                        <h3>{{ $faqs['domanda'] }}<i class="fas fa-plus float-right active"></i><i class="fas fa-minus float-right"></i>
-                        </h3>
-                        <p>{{ $faqs['risposta'] }}</p>
+                        <div class="faq after">
+                            <h3>{{ $faqs['domanda'] }}<i class="fas fa-plus float-right active"></i><i class="fas fa-minus float-right"></i>
+                            </h3>
+                            <p>{{ $faqs['risposta'] }}</p>
+                        </div>
                     @endforeach
                 </div>
             </div>

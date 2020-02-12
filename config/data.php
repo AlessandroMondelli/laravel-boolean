@@ -22,7 +22,7 @@ $domanda_6_bef = "Questo corso è una valida alternativa alla laurea?";
 $risposta_6_bef = "Sì, nel mondo della programmazione non ci sono percorsi di carriera che ti sono preclusi se non sei in possesso di una laurea. Le aziende alla ricerca di web developer sanno che degli studi universitari non rappresentano una garanzia nel saper programmare e, per questo motivo, valutano anche candidati non laureati.";
 
 $domanda_7_bef = "Quanto costa il corso?";
-$risposta_7_bef = "Trovi tutte le informazioni sul prezzo nell'<a href=''>apposita sezione della pagina corso</a>";
+$risposta_7_bef = "Trovi tutte le informazioni sul prezzo nell'apposita sezione della pagina corso";
 
 //Domande e risposte dopo del corso
 $domanda_1_aft = "Ho la certezza di essere assunto?";
