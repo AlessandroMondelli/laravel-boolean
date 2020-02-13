@@ -1,5 +1,7 @@
 @extends('layouts.main')
 
+@section('title','Faqs Boolean Laravel')
+
 @section('content')
 <main>
     <section>
